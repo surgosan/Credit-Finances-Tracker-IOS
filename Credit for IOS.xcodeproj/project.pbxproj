@@ -14,6 +14,15 @@
 		7B486C812C3CAF75001361DA /* Credit_for_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B486C802C3CAF75001361DA /* Credit_for_IOSTests.swift */; };
 		7B486C8B2C3CAF75001361DA /* Credit_for_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B486C8A2C3CAF75001361DA /* Credit_for_IOSUITests.swift */; };
 		7B486C8D2C3CAF75001361DA /* Credit_for_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B486C8C2C3CAF75001361DA /* Credit_for_IOSUITestsLaunchTests.swift */; };
+		7BCCB08B2C3E1D39007CCE86 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB08A2C3E1D39007CCE86 /* Home.swift */; };
+		7BCCB08C2C3E1D39007CCE86 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB08A2C3E1D39007CCE86 /* Home.swift */; };
+		7BCCB08D2C3E1D39007CCE86 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB08A2C3E1D39007CCE86 /* Home.swift */; };
+		7BCCB08F2C3E1E1E007CCE86 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB08E2C3E1E1E007CCE86 /* Data.swift */; };
+		7BCCB0902C3E1E1E007CCE86 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB08E2C3E1E1E007CCE86 /* Data.swift */; };
+		7BCCB0912C3E1E1E007CCE86 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB08E2C3E1E1E007CCE86 /* Data.swift */; };
+		7BCCB0932C3E1E26007CCE86 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB0922C3E1E26007CCE86 /* Settings.swift */; };
+		7BCCB0942C3E1E26007CCE86 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB0922C3E1E26007CCE86 /* Settings.swift */; };
+		7BCCB0952C3E1E26007CCE86 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB0922C3E1E26007CCE86 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,9 @@
 		7B486C862C3CAF75001361DA /* Credit for IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credit for IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B486C8A2C3CAF75001361DA /* Credit_for_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit_for_IOSUITests.swift; sourceTree = "<group>"; };
 		7B486C8C2C3CAF75001361DA /* Credit_for_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit_for_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BCCB08A2C3E1D39007CCE86 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7BCCB08E2C3E1E1E007CCE86 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7BCCB0922C3E1E26007CCE86 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,9 @@
 				7B486C712C3CAF74001361DA /* ContentView.swift */,
 				7B486C732C3CAF75001361DA /* Assets.xcassets */,
 				7B486C752C3CAF75001361DA /* Preview Content */,
+				7BCCB08A2C3E1D39007CCE86 /* Home.swift */,
+				7BCCB08E2C3E1E1E007CCE86 /* Data.swift */,
+				7BCCB0922C3E1E26007CCE86 /* Settings.swift */,
 			);
 			path = "Credit for IOS";
 			sourceTree = "<group>";
@@ -258,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B486C722C3CAF74001361DA /* ContentView.swift in Sources */,
+				7BCCB08B2C3E1D39007CCE86 /* Home.swift in Sources */,
 				7B486C702C3CAF74001361DA /* Credit_for_IOSApp.swift in Sources */,
+				7BCCB08F2C3E1E1E007CCE86 /* Data.swift in Sources */,
+				7BCCB0932C3E1E26007CCE86 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCCB08C2C3E1D39007CCE86 /* Home.swift in Sources */,
+				7BCCB0902C3E1E1E007CCE86 /* Data.swift in Sources */,
+				7BCCB0942C3E1E26007CCE86 /* Settings.swift in Sources */,
 				7B486C812C3CAF75001361DA /* Credit_for_IOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B486C8B2C3CAF75001361DA /* Credit_for_IOSUITests.swift in Sources */,
+				7BCCB08D2C3E1D39007CCE86 /* Home.swift in Sources */,
 				7B486C8D2C3CAF75001361DA /* Credit_for_IOSUITestsLaunchTests.swift in Sources */,
+				7BCCB0912C3E1E1E007CCE86 /* Data.swift in Sources */,
+				7BCCB0952C3E1E26007CCE86 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
