@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct Home: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+    var body: some View { // BODY
+        VStack { // MAIN
+            VStack { // Total Balance
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            }
+        } // MAIN
+        .padding()
+    } // BODY
 }
 
 #Preview {
